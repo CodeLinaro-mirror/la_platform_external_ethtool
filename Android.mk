@@ -1,7 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES:=ethtool.c ethtool-copy.h internal.h net_tstamp-copy.h rxclass.c
+LOCAL_SRC_FILES:=ethtool.c rxclass.c
 
 
 package := `ETHTOOL`
